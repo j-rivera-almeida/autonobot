@@ -1,5 +1,6 @@
-# autonobot
-Autonomous driving simulation using Unity as the game engine and Image regicnition following the YOLO technique to create the model.
+The DriveAPI is included in the DriveAPI.py. You will create the script to run the rover in the Run.py file. 
+In Run.py there is an inherited class over Rover called MyRover. Your code will go in the Script function of MyRover. 
+When calling functions in the Script function, you will need to use the rover object passed in. For example, rover.PutInDrive().
 
 The DriveAPI offers the following functions:
 
@@ -23,5 +24,3 @@ Other
 ****************
 Finish() - Call Finish once the rover is done driving. After Finish is called the rover will stop and the python script will end. 
 Run() - Call Run in the main function of your code. This has been implemented for you. It will get the rover's internal state preparred and begin running your script.
-
-<img src="./assets/yolo.png" alt="ml autonomous driving simulation">
